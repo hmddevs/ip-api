@@ -27,7 +27,7 @@
     "privacy"
   ],
   "author": "HMD Developments, Inc. <contact@hmddevs.org> (https://hmddevs.org)",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "homepage": "https://ip.hmddevs.org",
   "repository": {
     "type": "git",

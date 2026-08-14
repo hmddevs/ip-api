@@ -2,7 +2,7 @@
  * IP API - A lightning-fast, privacy-focused IP geolocation API
  *
  * @author HMD Developments, Inc.
- * @license MIT
+ * @license Apache-2.0
  * @see https://github.com/hmddevs/ip-api
  * @version 1.0.0
  */

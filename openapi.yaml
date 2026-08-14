@@ -16,8 +16,8 @@ info:
     url: https://hmddevs.org
     email: contact@hmddevs.org
   license:
-    name: MIT
-    url: https://opensource.org/licenses/MIT
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
   x-logo:
     url: https://hmddevs.org/logo.png
     altText: HMD Developments Logo
