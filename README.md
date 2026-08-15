@@ -2,7 +2,7 @@
 
 # IP API
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Deploy with Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)](https://ip.hmddevs.org)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 
@@ -243,7 +243,7 @@ Found a vulnerability? See [SECURITY.md](SECURITY.md).
 
 ## Licence
 
-[MIT](LICENSE)
+[Apache 2.0](LICENSE)
 
 ## Acknowledgements
 

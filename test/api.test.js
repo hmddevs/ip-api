@@ -2,7 +2,7 @@
  * IP API - Unit Tests
  *
  * @author HMD Developments, Inc.
- * @license MIT
+ * @license Apache-2.0
  */
 
 const { describe, it, beforeEach } = require('node:test');
