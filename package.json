@@ -40,7 +40,7 @@
     "geoip-lite": "^1.4.10"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
+    "@eslint/js": "^10.0.1",
     "eslint": "^9.39.1"
   },
   "engines": {
