@@ -37,7 +37,7 @@
     "url": "https://github.com/hmddevs/ip-api/issues"
   },
   "dependencies": {
-    "geoip-lite": "^1.4.10"
+    "geoip-lite": "^2.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
