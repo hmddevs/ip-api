@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ip-api",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-08-01",
+  "routes": [{ "pattern": "ip.hmddevs.org/*", "zone_name": "hmddevs.org" }],
+  "workers_dev": false,
+  "observability": { "enabled": true }
+}
