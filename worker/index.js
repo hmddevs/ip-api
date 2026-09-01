@@ -28,8 +28,11 @@ const baseHeaders = () =>
     'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type, Accept',
     'Access-Control-Max-Age': '86400',
-    'Cache-Control': 'public, max-age=60, s-maxage=60, stale-while-revalidate=30',
-    Vary: 'Accept-Encoding',
+    // The body is the caller's own IP, so this response is unique per client and
+    // must never enter a shared cache. The Vercel version sent
+    // `public, s-maxage=60`, which would let an edge or proxy cache hand one
+    // visitor's address to the next.
+    'Cache-Control': 'no-store',
     'Content-Type': 'application/json; charset=utf-8',
     'X-API-Version': API_VERSION,
     'X-Powered-By': 'HMD Developments',
@@ -60,10 +63,11 @@ export default {
       );
     }
 
-    const ip =
-      request.headers.get('cf-connecting-ip') ||
-      request.headers.get('x-real-ip') ||
-      request.headers.get('x-forwarded-for')?.split(',')[0].trim();
+    // cf-connecting-ip only. Cloudflare sets it on every request and a caller
+    // cannot forge it. x-real-ip and x-forwarded-for are caller supplied, and
+    // for an API whose entire job is reporting the true client address,
+    // honouring them would let the caller choose the answer.
+    const ip = request.headers.get('cf-connecting-ip');
 
     if (!ip) {
       return json(
