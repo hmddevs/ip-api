@@ -19,7 +19,6 @@
     "api",
     "rest-api",
     "serverless",
-    "vercel",
     "country",
     "location",
     "ipv4",
@@ -53,7 +52,6 @@
   ],
   "files": [
     "api/",
-    "vercel.json",
     "LICENSE",
     "README.md"
   ],

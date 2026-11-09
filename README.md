@@ -3,7 +3,6 @@
 # IP API
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Deploy with Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)](https://ip.hmddevs.org)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 
 **Privacy-focused IP geolocation API.**
@@ -16,7 +15,7 @@
 
 ## Features
 
-- Sub-100ms responses via Vercel's edge network
+- Sub-100ms responses via Cloudflare's edge network
 - No logging, no tracking, no data storage
 - Accurate geolocation data for IPs worldwide
 - No API keys required
@@ -172,7 +171,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) 18+
-- [Vercel CLI](https://vercel.com/cli) (optional)
 
 ### Installation
 
@@ -190,17 +188,6 @@ npm run dev
 
 Visit `http://localhost:3000` to test locally.
 
-### Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hmddevs/ip-api)
-
-Or via CLI:
-
-```bash
-npm install -g vercel
-vercel --prod
-```
-
 ## Project Structure
 
 ```
@@ -215,7 +202,6 @@ ip-api/
 │   └── dependabot.yml      # Dependency updates
 ├── openapi.yaml            # OpenAPI 3.1 specification
 ├── package.json
-├── vercel.json
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
@@ -249,7 +235,6 @@ Found a vulnerability? See [SECURITY.md](SECURITY.md).
 
 - [MaxMind GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) for geolocation data
 - [geoip-lite](https://github.com/geoip-lite/node-geoip) for the Node.js geolocation library
-- [Vercel](https://vercel.com) for hosting
 
 ---
 
