@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Discussions
-    url: https://github.com/hmddevs/ip-api/discussions
+    url: https://github.com/umutguden/ip-api/discussions
     about: Ask questions or discuss ideas
   - name: Documentation
-    url: https://github.com/hmddevs/ip-api#readme
+    url: https://github.com/umutguden/ip-api#readme
     about: Read the documentation
   - name: Security Issues
-    url: https://github.com/hmddevs/ip-api/security/policy
+    url: https://github.com/umutguden/ip-api/security/policy
     about: Report security vulnerabilities privately

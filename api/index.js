@@ -1,9 +1,9 @@
 /**
  * IP API - A lightning-fast, privacy-focused IP geolocation API
  *
- * @author HMD Developments, Inc.
+ * @author Umut Güden
  * @license Apache-2.0
- * @see https://github.com/hmddevs/ip-api
+ * @see https://github.com/umutguden/ip-api
  * @version 1.0.0
  */
 
@@ -145,7 +145,7 @@ const setResponseHeaders = (res) => {
 
   // Custom headers
   res.setHeader('X-API-Version', API_VERSION);
-  res.setHeader('X-Powered-By', 'HMD Developments');
+  res.setHeader('X-Powered-By', 'Umut Güden');
 };
 
 /**

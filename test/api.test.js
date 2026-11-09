@@ -1,7 +1,7 @@
 /**
  * IP API - Unit Tests
  *
- * @author HMD Developments, Inc.
+ * @author Umut Güden
  * @license Apache-2.0
  */
 
