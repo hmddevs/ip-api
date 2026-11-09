@@ -12,15 +12,11 @@ info:
 
   version: 1.0.0
   contact:
-    name: HMD Developments, Inc.
-    url: https://hmddevs.org
-    email: contact@hmddevs.org
+    name: Umut Güden
+    url: https://guden.tr
   license:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
-  x-logo:
-    url: https://hmddevs.org/logo.png
-    altText: HMD Developments Logo
 
 servers:
   - url: https://ip.hmddevs.org
@@ -198,4 +194,4 @@ tags:
 
 externalDocs:
   description: GitHub Repository
-  url: https://github.com/hmddevs/ip-api
+  url: https://github.com/umutguden/ip-api

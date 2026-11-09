@@ -4,9 +4,9 @@
  * Cloudflare Workers runtime. The client IP comes from CF-Connecting-IP and the
  * country from request.cf, so no local geolocation database is needed.
  *
- * @author HMD Developments, Inc.
+ * @author Umut Güden
  * @license Apache-2.0
- * @see https://github.com/hmddevs/ip-api
+ * @see https://github.com/umutguden/ip-api
  */
 
 const API_VERSION = '1.0.0';
@@ -35,7 +35,7 @@ const baseHeaders = () =>
     'Cache-Control': 'no-store',
     'Content-Type': 'application/json; charset=utf-8',
     'X-API-Version': API_VERSION,
-    'X-Powered-By': 'HMD Developments',
+    'X-Powered-By': 'Umut Güden',
   });
 
 const json = (body, status, headers) =>

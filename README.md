@@ -8,7 +8,7 @@
 
 **Privacy-focused IP geolocation API.**
 
-[Live](https://ip.hmddevs.org) · [Report a Bug](https://github.com/hmddevs/ip-api/issues) · [Request a Feature](https://github.com/hmddevs/ip-api/issues)
+[Live](https://ip.hmddevs.org) · [Report a Bug](https://github.com/umutguden/ip-api/issues) · [Request a Feature](https://github.com/umutguden/ip-api/issues)
 
 ---
 
@@ -177,7 +177,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 ### Installation
 
 ```bash
-git clone https://github.com/hmddevs/ip-api.git
+git clone https://github.com/umutguden/ip-api.git
 cd ip-api
 npm install
 ```
@@ -192,7 +192,7 @@ Visit `http://localhost:3000` to test locally.
 
 ### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hmddevs/ip-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/umutguden/ip-api)
 
 Or via CLI:
 

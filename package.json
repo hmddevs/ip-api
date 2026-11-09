@@ -1,5 +1,5 @@
 {
-  "name": "@hmddevs/ip-api",
+  "name": "ip-api",
   "version": "1.0.0",
   "description": "A lightning-fast, privacy-focused IP geolocation API. Returns client IP address and country code in JSON format.",
   "main": "api/index.js",
@@ -26,15 +26,15 @@
     "ipv6",
     "privacy"
   ],
-  "author": "HMD Developments, Inc. <contact@hmddevs.org> (https://hmddevs.org)",
+  "author": "Umut Güden (https://guden.tr)",
   "license": "Apache-2.0",
   "homepage": "https://ip.hmddevs.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hmddevs/ip-api.git"
+    "url": "git+https://github.com/umutguden/ip-api.git"
   },
   "bugs": {
-    "url": "https://github.com/hmddevs/ip-api/issues"
+    "url": "https://github.com/umutguden/ip-api/issues"
   },
   "dependencies": {
     "geoip-lite": "^1.4.10"
