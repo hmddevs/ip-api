@@ -6,7 +6,7 @@
  *
  * @author Umut Güden
  * @license Apache-2.0
- * @see https://github.com/umutguden/ip-api
+ * @see https://github.com/hmddevs/ip-api
  */
 
 const API_VERSION = '1.0.0';
