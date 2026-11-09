@@ -4,8 +4,8 @@
   "description": "A lightning-fast, privacy-focused IP geolocation API. Returns client IP address and country code in JSON format.",
   "main": "api/index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
     "lint": "eslint api/",
     "lint:fix": "eslint api/ --fix",
     "test": "node --test ./test/api.test.js"
