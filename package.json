@@ -26,15 +26,15 @@
     "ipv6",
     "privacy"
   ],
-  "author": "Umut Güden (https://guden.tr)",
+  "author": "Umut Güden (https://hmddevs.org)",
   "license": "Apache-2.0",
   "homepage": "https://ip.hmddevs.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umutguden/ip-api.git"
+    "url": "git+https://github.com/hmddevs/ip-api.git"
   },
   "bugs": {
-    "url": "https://github.com/umutguden/ip-api/issues"
+    "url": "https://github.com/hmddevs/ip-api/issues"
   },
   "dependencies": {
     "geoip-lite": "^1.4.10"
