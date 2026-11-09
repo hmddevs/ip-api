@@ -255,6 +255,6 @@ Found a vulnerability? See [SECURITY.md](SECURITY.md).
 
 <div align="center">
 
-Copyright 2025 [HMD Developments, Inc.](https://hmddevs.org)
+Copyright 2025 [Umut Güden](https://guden.tr)
 
 </div>

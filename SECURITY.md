@@ -67,4 +67,4 @@ We appreciate security researchers who help keep IP API safe. Contributors who r
 
 Thank you for helping keep IP API and its users safe!
 
-**HMD Developments, Inc.**
+**Umut Güden**
